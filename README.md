@@ -100,3 +100,8 @@ The security tests conducted on Google Gruyere revealed serious vulnerabilities 
 2. **Input Validation**: Ensure all user inputs are sanitized and validated before being processed by the application.
 3. **Security Testing**: Conduct regular security assessments using tools like OWASP ZAP to identify and fix vulnerabilities.
  
+## REPORT
+
+a report was generated after the whole scan wa done.
+
+[ZAP Scanning Report.pdf](https://github.com/user-attachments/files/16660848/ZAP.Scanning.Report.pdf)
