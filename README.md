@@ -102,6 +102,6 @@ The security tests conducted on Google Gruyere revealed serious vulnerabilities 
  
 ## REPORT
 
-a report was generated after the whole scan wa done.
+a report was generated after the whole scan was done.
 
 [ZAP Scanning Report.pdf](https://github.com/user-attachments/files/16660848/ZAP.Scanning.Report.pdf)
