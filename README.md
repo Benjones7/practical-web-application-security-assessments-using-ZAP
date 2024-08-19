@@ -31,6 +31,8 @@ The testing began by ensuring that all user input points were captured by ZAP fo
 
 -Launch ZAP on your Kali Linux VM by running the command "zaproxy &" on your terminal
 
+![1](https://github.com/user-attachments/assets/6163ac5f-8c43-4617-b2d9-ca602931194a)
+
 -Access Google Gruyere by opening your browser and navigating to: https://google-gruyere.appspot.com/
 
 ![4](https://github.com/user-attachments/assets/9e036215-58b5-4baa-899e-108aa8d48268)
