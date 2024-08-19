@@ -33,16 +33,17 @@ The testing began by ensuring that all user input points were captured by ZAP fo
 
 -Access Google Gruyere by opening your browser and navigating to: https://google-gruyere.appspot.com/
 
+![4](https://github.com/user-attachments/assets/9e036215-58b5-4baa-899e-108aa8d48268)
+
 -Ensure your browser traffic is routed through ZAP’s proxy (usually set to 127.0.0.1:8080).
 
--In ZAP, ensure Google Gruyere is listed in the Sites tree after you’ve browsed the application.
-
-   
   ![2](https://github.com/user-attachments/assets/5459de6c-bcf2-44a8-af24-9519553bdef9)
+  
+-In ZAP, ensure Google Gruyere is listed in the Sites tree after you’ve browsed the application.
 
 ![3](https://github.com/user-attachments/assets/30f3e4b9-6ad7-461d-8d58-f34184fa170a)
 
-![4](https://github.com/user-attachments/assets/9e036215-58b5-4baa-899e-108aa8d48268)
+
 
 #### **Step 2: Identifying Vulnerabilities with Spidering**
 2. Crawling Google Gruyere (Spidering)
@@ -50,9 +51,13 @@ The testing began by ensuring that all user input points were captured by ZAP fo
   The Spider tool in ZAP was used to crawl through Google Gruyere’s pages to discover potential vulnerabilities.
   This allowed us to map out all user inputs, including forms and URL parameters that could be exploited.
 
+![5](https://github.com/user-attachments/assets/09282475-ec40-4977-bbe6-b83ce583b265)
+
    -Right-click on the Google Gruyere URL in the Sites tree and select Attack > Spider.
 
   -Configure the spider settings (optional) and click Start Scan.
+ 
+  ![6](https://github.com/user-attachments/assets/56ef3e9f-4523-49a3-9cc2-b8d22a744841)
 
    -ZAP will crawl the site and populate the Sites tree with discovered pages and inputs.
 
@@ -62,9 +67,7 @@ The testing began by ensuring that all user input points were captured by ZAP fo
 
 -For each alert, you can click on it to view more details, including the vulnerability type (e.g., SQL Injection), affected parameters, and suggestions for remediation.
 
-  ![5](https://github.com/user-attachments/assets/09282475-ec40-4977-bbe6-b83ce583b265)
-
-![6](https://github.com/user-attachments/assets/56ef3e9f-4523-49a3-9cc2-b8d22a744841)
+![9](https://github.com/user-attachments/assets/12410624-3e6b-49ee-8b12-fe3cb9530537)
 
 #### **Step 3: Injection Attack Testing on Google Gruyere**
 - **Description**:
@@ -80,9 +83,6 @@ The testing began by ensuring that all user input points were captured by ZAP fo
   An active scan was initiated to automate the process of injecting attack payloads into input fields. ZAP tested Google Gruyere for a variety of vulnerabilities, including injection flaws and weak authentication mechanisms.
 
   ![8](https://github.com/user-attachments/assets/ee66ba5f-4abd-423b-a9cf-95b1dfa7fffc)
-
-![9](https://github.com/user-attachments/assets/12410624-3e6b-49ee-8b12-fe3cb9530537)
-
 
 #### **Step 5: Evaluating Authentication Mechanisms**
 - **Description**: 
